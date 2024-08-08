@@ -1,0 +1,17 @@
+{
+  "name": "cypress-example-practice",
+  "version": "1.0.0",
+  "description": "This repository contains example projects and practice exercises for learning and mastering [Cypress](https://www.cypress.io/), a powerful end-to-end testing framework for web applications. It includes a variety of test scenarios and configurations to help users get hands-on experience with Cypress features and best practices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy-test": "npx cypress run",
+    "cy-open": "npx cypress open",
+    "cy-stage-test": "npx cypress run --spec cypress/e2e/dev/testEnv.cy.js --config-file stage.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.13.2"
+  }
+}
