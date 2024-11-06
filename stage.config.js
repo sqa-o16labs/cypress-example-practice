@@ -6,7 +6,6 @@ module.exports = defineConfig({
         
     },
     screenshotOnRunFailure: true,
-    viewportWidth: 1920,
-    viewportHeight: 1080,
+    viewport: 'macbook-11', // 1366x768
 })
 

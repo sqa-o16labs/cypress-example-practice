@@ -1,7 +1,7 @@
 describe('Testing with different files', () => {
     it('Visits the Application Based on Config File', () => {
-        const baseUrl = Cypress.env('baseUrl');
-        const username = Cypress.env('username');
+        const baseUrl = Cypress.env('baseUrlAdmin');
+        const username = Cypress.env('adminUsername');
 
         // Check if environment variables are loaded
         cy.log(`develop URL: ${baseUrl}`);
