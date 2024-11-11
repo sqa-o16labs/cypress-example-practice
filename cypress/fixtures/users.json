@@ -1,4 +1,18 @@
-{
-  "email": "anas80@yopmail.com",
-  "password": "User@test123"
-}
+[
+  {
+    "email": "anas80@yopmail.com",
+    "password": "User@test123"
+  },
+  {
+    "email": "melvin@yopmail.com",
+    "password": "User@123"
+  },
+  {
+    "email": "rose@yopmail.com",
+    "password": "User@123"
+  },
+  {
+    "email": "ward@yopmail.com",
+    "password": "User@123"
+  }
+]
